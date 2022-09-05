@@ -1,0 +1,211 @@
+.container-fluid
+{
+  background-color:#ddd;
+  /*position:fixed;*/
+}
+
+
+.head
+{
+  display:flex;
+  font-family:serif;
+  font-size:25px;
+  padding:15px;
+}
+
+.head p{ margin-top:5px;}
+#nav-bar
+{ 
+  font-size:18px;
+  margin-top:-150px;
+}
+#nav-bar ul
+{
+  display:flex;
+  justify-content:flex-end;
+  flex-direction:row;
+}
+#nav-bar ul li 
+{
+  padding-left:100px;
+  padding-top:80px;
+  list-style-type:none;
+}
+#nav-link
+{
+  color:black;
+  text-decoration:none;
+}
+#email
+{
+  width:280px;
+  margin:20px;
+}
+#submit
+{
+  font-weight:bold;
+  padding-left:30px;
+  padding-right:30px;
+
+}
+
+#submit:hover
+{
+  background-color:orange;
+}
+#container
+{
+  padding-top:50px;
+}
+#section
+{
+  margin-top:90px;
+  margin-left:400px;
+  margin-right:270px;
+  padding-bottom:90px;
+}
+
+#section1
+{
+  display:flex;
+}
+#text
+{
+  margin-left:70px;
+}
+#section2
+{
+  display:flex;
+  margin-top:40px;
+  
+}
+#text2
+{
+  margin-left:60px;
+}
+#section3
+{
+  display:flex;
+  margin-top:40px;
+  
+}
+#text3
+{
+  margin-left:60px;
+}
+#video
+{
+  margin-left:40px;
+}
+
+#cards
+{
+   display:flex;
+   flex-direction:row;
+   margin-left:400px;
+   margin-right:270px;
+   padding-bottom:90px;
+   margin-top:80px;
+}
+#card
+{
+  border: 1px solid black;
+  margin-right:16px;
+  
+  
+}
+#title
+{
+  background-color:Lightgray;
+  padding:15px;
+  
+}
+#content
+{
+  padding:50px;
+}
+#footer
+{
+  background-color:Lightgray;
+   margin-left:400px;
+   margin-right:270px;
+  padding:25px;
+  
+}
+#list
+{
+   display:flex;
+  justify-content:flex-end;
+  flex-direction:row;
+  list-style-type:none;
+}
+#list li
+{
+  margin-right:20px;
+}
+#list li a
+{
+  text-decoration:none;
+  color:#000;
+}
+
+@media screen and (max-width:768px)
+{
+  #nav-bar ul
+{
+  flex-direction:column;
+  
+}
+  #nav-bar ul li 
+ {
+  padding-left:400px;
+  margin-bottom:-50px;
+  }
+  #section
+  {
+    margin:0 auto;
+    padding:30px;
+  }
+  
+  #cards
+  {
+     flex-direction:column;
+    margin-left:100px;
+   margin-right:70px;
+   padding-bottom:30px;
+     
+  }
+  #card
+  {
+    margin-bottom:20px;
+  }
+  #content
+  {
+    padding:25px;
+    
+  }
+  #footer
+  {
+    margin-left:100px;
+   margin-right:70px;
+  }
+   
+  
+}
+
+@media screen and(min-width:1200px)
+{
+   #section
+  {
+    margin:0 auto;
+    padding:30px;
+  }
+   #cards
+  {
+    margin-left:400px;
+   margin-right:70px;
+   padding-bottom:30px;
+     
+  }
+  
+}
